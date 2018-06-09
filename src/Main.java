@@ -41,6 +41,8 @@ public class Main {
                         saldo -= 210;
                         break;
                     }
+                    default:
+                        System.out.println("Produto inválido!!!");
                 }
                 break;
             }
@@ -79,6 +81,8 @@ public class Main {
                         saldo -= 475;
                         break;
                     }
+                    default:
+                        System.out.println("Produto inválido!!!");
                 }
                 break;
             }
@@ -116,6 +120,8 @@ public class Main {
                         saldo -= 999;
                         break;
                     }
+                    default:
+                        System.out.println("Produto inválido!!!");
                 }
                 break;
             }
@@ -153,6 +159,8 @@ public class Main {
                         saldo -= 855;
                         break;
                     }
+                    default:
+                        System.out.println("Produto inválido!!!");
                 }
                 break;
             }
@@ -190,12 +198,14 @@ public class Main {
                         saldo -= 1001;
                         break;
                     }
+                    default:
+                        System.out.println("Produto inválido!!!");
                 }
                 break;
             }
             default:
                 System.out.println("Categoria inválida!!!");
-                
+
         }
         System.out.println("O seu saldo é :" + saldo);
     }
