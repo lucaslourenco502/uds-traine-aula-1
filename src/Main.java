@@ -6,7 +6,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Categoria:");
         int categoria = scanner.nextInt();
-        
+
         switch (categoria) {
             case 1: {
                 System.out.println("Pistols");
@@ -193,6 +193,9 @@ public class Main {
                 }
                 break;
             }
+            default:
+                System.out.println("Categoria inválida!!!");
+                
         }
         System.out.println("O seu saldo é :" + saldo);
     }
