@@ -7,7 +7,7 @@ public class Main {
 
         String nome = "Lucas Lourenço";
         int numero = 6;
-        int idade = 18;
+        int idade = 19;
         boolean sexoFeminino = false;
         double peso = 58.2;
         System.out.println("Olá meu nome é " + nome + ", tenho " + idade + " anos de idade!");
